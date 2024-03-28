@@ -5,18 +5,17 @@ import {  Layout, Menu, Image } from 'antd';
 
 const { Header } = Layout;
 
-const items = new Array(3).fill(null).map((_, index) => ({
-  key: String(index + 1),
-  label: `nav ${index + 1}`,
-}));
+interface NavBarProps {
+  onClick(pageNum: number): void;
+}
 
-// const items = [
-//   {key: 1, label: "item1"},
-//   {key: 2, label: "item2"},
-//   {key: 3, label: "item3"},
-// ]
+const NavBar: React.FC<NavBarProps> = ({onClick}) => {
 
-const NavBar: React.FC = () => {
+  const items = [
+    {key: 1, label: "nav1", onclick: {function(){onClick(1)}}},
+    {key: 2, label: "item2", onclick: {function(){onClick(2)}}},
+    {key: 3, label: "item3", onclick: {function(){onClick(3)}}},
+  ]
 
   return (
     <Layout>
