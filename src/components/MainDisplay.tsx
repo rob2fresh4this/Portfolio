@@ -1,7 +1,6 @@
 import React from 'react';
 import '../index.css';
-import logo from '../Images/image.png'
-import {  Layout, Menu, Image } from 'antd';
+
 
 interface MainDisplayProps {
     displayKey: number
