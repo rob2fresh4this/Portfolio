@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+import Page1 from './Page1';
 
 
 interface MainDisplayProps {
@@ -11,7 +12,7 @@ const MainDisplay: React.FC<MainDisplayProps> = ({displayKey}) => {
     switch (displayKey) {
         case 1:
             return (
-                <h1>Landing Page</h1>
+                <Page1 />
             )
         case 2:
             return (
