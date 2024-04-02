@@ -1,29 +1,22 @@
 import React from 'react';
 import '../index.css';
-import logo from '../Images/image.png'
-import {  Layout, Menu, Image } from 'antd';
+import { useState } from 'react';
+import NavBar from './NavBar';
+import MainDisplay from './MainDisplay';
 
-interface BodyProps {
-    key: number
-}
-
-const Body: React.FC<BodyProps> = ({key}) => {
-
-    switch (key) {
-        case 1:
-            return (
-                <h1>page1</h1>
-            )
-        case 2:
-            return (
-                <h1>page2</h1>
-            )
-
-        case 3:
-            return (
-                <h1>page3</h1>
-            )
+const Body: React.FC = () => {
+    const [displayKey, setDisplayKey] = useState(1);
+    function handleClick(pageNum: number) {
+        console.log(pageNum)
+        setDisplayKey(pageNum)
     }
+    
+    return (
+        <>
+            <NavBar onClick={handleClick} />
+            <MainDisplay displayKey={displayKey} />
+        </>
+    )
 };
 
 export default Body;
