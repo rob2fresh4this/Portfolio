@@ -12,9 +12,9 @@ interface NavBarProps {
 const NavBar: React.FC<NavBarProps> = ({onClick}) => {
 
   const items = [
-    {key: 1, label: "nav1", onclick: {function(){onClick(1)}}},
-    {key: 2, label: "item2", onclick: {function(){onClick(2)}}},
-    {key: 3, label: "item3", onclick: {function(){onClick(3)}}},
+    {key: 1, label: "nav1"},
+    {key: 2, label: "item2"},
+    {key: 3, label: "item3"},
   ]
 
   return (
@@ -39,6 +39,7 @@ const NavBar: React.FC<NavBarProps> = ({onClick}) => {
           />
         </div>
         <Menu
+          onClick={({ key }) => {onClick(parseInt(key))}}
           theme="dark"
           mode="horizontal"
           defaultSelectedKeys={['1']}
