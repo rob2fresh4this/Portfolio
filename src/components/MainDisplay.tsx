@@ -1,6 +1,8 @@
 import React from 'react';
 import '../index.css';
 import Page1 from './Page1';
+import Page2 from './Page2';
+import Page3 from './Page3';
 
 
 interface MainDisplayProps {
@@ -16,12 +18,12 @@ const MainDisplay: React.FC<MainDisplayProps> = ({displayKey}) => {
             )
         case 2:
             return (
-                <h1>page2</h1>
+                <Page2 />
             )
 
         case 3:
             return (
-                <h1>page3</h1>
+                <Page3 />
             )
         
         default:
