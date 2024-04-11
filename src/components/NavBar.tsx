@@ -2,6 +2,7 @@ import React from 'react';
 import '../index.css';
 import logo from '../Images/image.png'
 import {  Layout, Menu, Image } from 'antd';
+import './NavBar.css'
 
 const { Header } = Layout;
 
@@ -46,6 +47,7 @@ const NavBar: React.FC<NavBarProps> = ({onClick}) => {
           items={items}
           style={{ flex: 1, minWidth: 0 }}
         />
+        <h1 className='gapRight'>Robert Grijalva</h1>
       </Header>
     </Layout>
   );
