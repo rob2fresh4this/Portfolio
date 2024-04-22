@@ -13,9 +13,10 @@ interface NavBarProps {
 const NavBar: React.FC<NavBarProps> = ({onClick}) => {
 
   const items = [
-    {key: 1, label: "nav1"},
-    {key: 2, label: "item2"},
-    {key: 3, label: "item3"},
+    {key: 1, label: "Home"},
+    {key: 2, label: "Growth & Core Skills"},
+    {key: 3, label: "Career Explorations"},
+    {key: 4, label: "Work/Volunteer Experience"},
   ]
 
   return (
