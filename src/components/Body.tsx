@@ -12,10 +12,10 @@ const Body: React.FC = () => {
     }
     
     return (
-        <>
+        <div className='font'>
             <NavBar onClick={handleClick} />
             <MainDisplay displayKey={displayKey} />
-        </>
+        </div>
     )
 };
 

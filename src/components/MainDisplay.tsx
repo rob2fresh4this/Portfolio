@@ -7,7 +7,7 @@ import Page4 from './Page4';
 
 
 interface MainDisplayProps {
-    displayKey: number
+    displayKey: number 
 }
 
 const MainDisplay: React.FC<MainDisplayProps> = ({displayKey}) => {
@@ -21,7 +21,6 @@ const MainDisplay: React.FC<MainDisplayProps> = ({displayKey}) => {
             return (
                 <Page2 />
             )
-
         case 3:
             return (
                 <Page3 />
@@ -30,6 +29,7 @@ const MainDisplay: React.FC<MainDisplayProps> = ({displayKey}) => {
             return (
                 <Page4 />
             )
+
         
         default:
             return (

@@ -12,6 +12,7 @@ interface NavBarProps {
 
 const NavBar: React.FC<NavBarProps> = ({onClick}) => {
 
+  
   const items = [
     {key: 1, label: "Home"},
     {key: 2, label: "Growth & Core Skills"},
@@ -46,9 +47,10 @@ const NavBar: React.FC<NavBarProps> = ({onClick}) => {
           mode="horizontal"
           defaultSelectedKeys={['1']}
           items={items}
-          style={{ flex: 1, minWidth: 0 }}
+          style={{ flex: 1, minWidth: 0, }}
+          className='font'
         />
-        <h1 className='gapRight'>Robert Grijalva</h1>
+        <h1 className='gapRight font'>Robert Grijalva</h1>
       </Header>
     </Layout>
   );
