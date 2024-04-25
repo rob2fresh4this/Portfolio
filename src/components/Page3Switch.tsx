@@ -10,11 +10,11 @@ const P3Switch: React.FC<MainDisplayProps> = ({displayKey}) => {
     switch (displayKey) {
         case 1:
             return (
-                <Page3B />
+                <Page3A />
             )
         case 2:
             return (
-                <Page3A />
+                <Page3B />
             )
         default:
             return (

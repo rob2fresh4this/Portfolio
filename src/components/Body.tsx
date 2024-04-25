@@ -12,9 +12,9 @@ const Body: React.FC = () => {
     }
     
     return (
-        <div className='font'>
+        <div className='font '>
             <NavBar onClick={handleClick} />
-            <MainDisplay displayKey={displayKey} />
+            <MainDisplay displayKey={displayKey}/>
         </div>
     )
 };

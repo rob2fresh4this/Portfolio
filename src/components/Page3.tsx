@@ -19,9 +19,8 @@ const Page3: React.FC = () => {
         <Button type="primary" onClick={()=> handleClick(1)} size="middle" className="sizes font">Plan A</Button>
         <Button type="primary" onClick={()=> handleClick(2)} size="middle" className="sizes font">Plan B</Button>
       </Flex>
-      <Flex justify="center">
-        <P3Switch displayKey={displayKey}/>
-      </Flex>
+      <P3Switch displayKey={displayKey}/>
+      
       
     </div>
     );

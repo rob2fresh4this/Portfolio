@@ -1,7 +1,7 @@
 import React from "react";
 import "./Page4.css";
 import { Flex } from 'antd';
-import logo from "../Images/placeholder1x1.jpg"
+import logo from "../Images/B1.jpg"
 
 
 const Page4: React.FC = () => {

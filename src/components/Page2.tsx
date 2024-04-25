@@ -1,6 +1,6 @@
 import React from "react";
 import "./Page2.css"
-import { Flex } from 'antd'
+import { Flex , Image } from 'antd'
 import logo1x1 from "../Images/placeholder1x1.jpg"
 
 
@@ -10,7 +10,9 @@ const Page2: React.FC = () => {
         <Flex vertical={false} justify="space-evenly">
 
         <div className="fixDiv">
-            <img src={logo1x1} alt="" className="size"/>
+            <div  className="size">
+                <Image src={logo1x1} alt=""/>
+            </div>
             <h1>Strengths</h1>
                 <div className="left">
                     <li>1</li>
@@ -19,7 +21,9 @@ const Page2: React.FC = () => {
                 </div>
         </div>
         <div className="fixDiv">
-            <img src={logo1x1} alt="" className="size"/>
+            <div  className="size">
+                <Image src={logo1x1} alt=""/>
+            </div>
             <h1>Challenges</h1>
                 <div className="left">
                     <li>1</li>
