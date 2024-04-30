@@ -6,6 +6,7 @@ import P3Switch from "./Page3Switch";
 
 
 
+
 const Page3: React.FC = () => {
     const [displayKey, setDisplayKey] = useState(0);
     function handleClick(pageNum: number) {
@@ -20,6 +21,8 @@ const Page3: React.FC = () => {
         <Button type="primary" onClick={()=> handleClick(2)} size="middle" className="sizes font">Plan B</Button>
       </Flex>
       <P3Switch displayKey={displayKey}/>
+
+      
       
       
     </div>

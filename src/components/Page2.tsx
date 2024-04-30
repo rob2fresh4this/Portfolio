@@ -1,7 +1,8 @@
 import React from "react";
 import "./Page2.css"
 import { Flex , Image } from 'antd'
-import logo1x1 from "../Images/placeholder1x1.jpg"
+import logo1x1 from "../Images/strength-post.jpg"
+import logo from "../Images/Sales-challenges.jpg"
 
 
 const Page2: React.FC = () => {
@@ -15,28 +16,28 @@ const Page2: React.FC = () => {
             </div>
             <h1>Strengths</h1>
                 <div className="left">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
+                    <li>Learned A lot from school</li>
+                    <li>Know how to code</li>
+                    <li>Better understanding of Problem Solving</li>
                 </div>
         </div>
         <div className="fixDiv">
             <div  className="size">
-                <Image src={logo1x1} alt=""/>
+                <Image src={logo} alt=""/>
             </div>
             <h1>Challenges</h1>
                 <div className="left">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
+                    <li>Living Situation</li>
+                    <li>Getting ready for the big leap</li>
+                    <li>The Changes</li>
                 </div>
         </div >
         </Flex>
         <div className="box">
             <h1>Skills Learned in the one.Program</h1>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
+                <li>Learned How to use html/css JavaScript TypeScript</li>
+                <li>How to use Unity</li>
+                <li>Better Time Management</li>
 
         </div>
         
