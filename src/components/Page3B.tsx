@@ -34,7 +34,7 @@ const Page3B: React.FC = () => {
                         <p className="marginTopBottom1">It like is said "I really like to code" because I really would like a job to code stuff up.</p>
                     </Flex>
                     <Flex justify={"center"} vertical={true} >
-                        <div className="size5 gap">
+                        <div className="size5">
                             <Image src={logo2} preview={false} alt=""/>
                         </div>
 
