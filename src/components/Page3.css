@@ -24,7 +24,7 @@
     height: 325px;
     background-color: transparent;
     color: black;
-    padding-left: 20%;
+    padding-left: 21%;
     padding-top: 35px;
 }
 .size4 {
@@ -49,4 +49,7 @@
 }
 .gap7 {
     margin-top: 75px;
+}
+.space{
+    margin-left: 6%;
 }

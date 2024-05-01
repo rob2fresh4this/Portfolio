@@ -14,7 +14,7 @@ const Page2: React.FC = () => {
             <div  className="size">
                 <Image src={logo1x1} alt=""/>
             </div>
-            <h1>Strengths</h1>
+            <h1 className="center">Strengths</h1>
                 <div className="left">
                     <li>Learned A lot from school</li>
                     <li>Know how to code</li>
@@ -25,11 +25,11 @@ const Page2: React.FC = () => {
             <div  className="size">
                 <Image src={logo} alt=""/>
             </div>
-            <h1>Challenges</h1>
+            <h1 className="center">Challenges</h1>
                 <div className="left">
-                    <li>Living Situation</li>
-                    <li>Getting ready for the big leap</li>
-                    <li>The Changes</li>
+                    <li>Learing more code</li>
+                    <li>My laziness</li>
+                    <li>Changes</li>
                 </div>
         </div >
         </Flex>

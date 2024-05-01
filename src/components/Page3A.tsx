@@ -10,7 +10,7 @@ const Page3A: React.FC = () => {
         <div className="gap7 font">
             <div className="box1">
                 <Flex justify={"center"} gap="400px" vertical={false}>
-                    <Flex vertical={true}>
+                    <Flex vertical={true} className="space">
                         <h1>Plan A: CodeStack/Software Developer</h1>
                         <h2 className="marginTopBottom">What I'll learn Going to CodeStack:</h2>
                         <p className="marginTopBottom1">web, mobile, and software application development; graphic and multimedia design; and video production</p>
@@ -34,7 +34,7 @@ const Page3A: React.FC = () => {
                         <p className="marginTopBottom1">The reason why I want this job is because I really enjoy this and would like this job. With the fact that i really enjoyed making the site</p>
                     </Flex>
                     <Flex justify={"center"} vertical={true} >
-                        <div className="size5 gap">
+                        <div className="size5">
                             <Image src={code} alt=""/>
                         </div>
 
