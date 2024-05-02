@@ -25,7 +25,7 @@ const Page3A: React.FC = () => {
                 </Flex>
             </div>
             <div className="box2">
-                <Flex justify={"center"} gap="350px" vertical={false}>
+                <Flex justify={"center"} gap="280px" vertical={false}>
                     <Flex vertical={true}>
                         <h1>Software Developer</h1>
                         <h2 className="marginTopBottom">Potential Salary</h2>

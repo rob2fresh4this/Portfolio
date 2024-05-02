@@ -1,6 +1,6 @@
 import React from "react";
 import "./Page3.css"
-import { Button, Flex } from 'antd';
+import { Button, Flex , FloatButton} from 'antd';
 import { useState } from 'react';
 import P3Switch from "./Page3Switch";
 
@@ -21,6 +21,7 @@ const Page3: React.FC = () => {
         <Button type="primary" onClick={()=> handleClick(2)} size="middle" className="sizes font">Plan B</Button>
       </Flex>
       <P3Switch displayKey={displayKey}/>
+      <FloatButton onClick={() => handleClick(3)} />
 
       
       

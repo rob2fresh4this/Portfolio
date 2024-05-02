@@ -1,5 +1,6 @@
 import Page3A from "./Page3A";
 import Page3B from "./Page3B";
+import Page3C from "./Page3C";
 import logo from "../Images/istockphoto-1311429811-612x612.jpg"
 import { Image, Flex } from 'antd';
 
@@ -17,6 +18,10 @@ const P3Switch: React.FC<MainDisplayProps> = ({displayKey}) => {
         case 2:
             return (
                 <Page3B />
+            )
+        case 3:
+            return (
+                <Page3C />
             )
         default:
             return (
